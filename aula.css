@@ -1,47 +1,109 @@
 * {
     margin: 0;
     padding: 0;
+    /* ambos servem como um rest para a pagina */
 }
 
 header {
-    background-color: #b8161b;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #b8161b; /*para colocar cor no cabaçalho*/
+    padding: 8px; /* seria o espaçamento*/
+    justify-content: space-between;  /* alinhar os itens em um contêiner flexível ao longo do eixo principal.*/
+    align-items: center; /* seria alinhar os instens*/
+    display: flex; /* deixar dinamico*/
 }
 
 header img {
-    width: 150px;
-    height: auto;
+    width: 150px; /*determina a largura da área de conteúdo de um elemento*/
+    height: auto; /*especifica a altura de uma imagem, em pixels*/
 }
 
 header nav ul {
-    display: flex;
+    display: flex; /*deixar dinamico*/
 }
 
 header nav ul li {
-    list-style: none;
-    margin-right: 10px;
+    list-style: none; /*remove os marcadores ou números de uma lista, deixando-a sem estilo*/
+    margin-right: 10px; /* seria a margem*/
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*remove qualquer sublinhado, linha ou estilo decorativo do texto*/
+    color: white; /* seria para colocar cor nas letras*/
 }
 
 
 .sessao-01 {
     padding: 250px;
-    background-image: url(img/imagemagora.png);
+    background-image: url(img/imagemagora.png); /* define uma imagem de fundo */
+    background-repeat: no-repeat; /* seria para não reptir a imagem*/
+    background-size: cover; /* ajusta a imagem de fundo para cobrir completamente o site*/
+    background-position: center; /* seria para posicionar a imagem no centro*/
+    display: flex; /* para deixar dinamico*/
+    justify-content: center; /* alinhar os itens em um contêiner flexível ao longo do eixo principal.*/
+    align-items: center; /* alinhar os intens*/
+}
+
+.section-02 {
+background-color: #b40b0e;
+padding: 100px;
+color: white;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+}
+ .section-02 img {
+    margin-left: 100px;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+ }
+
+.section-02 h2{
+    font-size: 30px;
+}
+ .section-02 p {
+    margin-top: 10px;
+ }
+
+ .section-03 {
+    background-image: url(img/baixeiagora.jpg);
+    background-attachment: fixed;
+    padding: 250px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+ }
+
+ .section-03 h2{
+    font-size: 50px;
+    color:  antiquewhite;
+ }
+  .section-03 p{
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+
+  footer {
+    background-color: black;
+    padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  footer ul {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    justify-items: center; 
+  }
+footer ul li{
+    list-style: none;
+    margin: 10px;
 }
 
-.section.02 {
-    back
+footer ul li a{
+   text-decoration: none; 
+   color: white;
 }
