@@ -31,6 +31,25 @@ header nav ul li a {
     color: white; /* seria para colocar cor nas letras*/
 }
 
+header nav ul li a:hover{
+color: dodgerblue;
+transition: 0.8s;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sessao-01 button{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.sessao-01 button:hover /*hover permite que o elemento a qual esta trablhando tenha alghuma ação com o mouse*/{ 
+    color: red; /* para mudar a cor das letras*/
+    transition: 0.8s; /* seria a transissão*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/* serve para mudar a fonyr do texto*/
+    cursor: pointer; /*para colocar a mãozinha*/
+}
 
 .sessao-01 {
     padding: 250px;
@@ -58,6 +77,14 @@ justify-content: space-between;
     height: auto;
     border-radius: 20px;
  }
+
+ .section-02 img:hover{
+    margin-left: 100px;
+    width: 210px;
+    height: auto;
+    transition: 0.8s;
+ } 
+ 
 
 .section-02 h2{
     font-size: 30px;
