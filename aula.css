@@ -32,7 +32,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover{
-color: dodgerblue;
+color: black;
 transition: 0.8s;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -134,3 +134,22 @@ footer ul li a{
    text-decoration: none; 
    color: white;
 }
+
+footer i {
+    color: #b40b0e;
+}
+
+/* aula03 */
+
+.section-04{
+    padding: 250px;
+    background-image: url(img02/sport02.webp); /* define uma imagem de fundo */
+    background-repeat: no-repeat; /* seria para não reptir a imagem*/
+    background-size: cover; /* ajusta a imagem de fundo para cobrir completamente o site*/
+    background-position: center; /* seria para posicionar a imagem no centro*/
+    display: flex; /* para deixar dinamico*/
+    justify-content: center; /* alinhar os itens em um contêiner flexível ao longo do eixo principal.*/
+    align-items: center; /* alinhar os intens*/
+}
+
+
