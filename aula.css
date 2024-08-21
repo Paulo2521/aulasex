@@ -152,4 +152,86 @@ footer i {
     align-items: center; /* alinhar os intens*/
 }
 
+.section-04 p{
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;    
+}
 
+.section-05{
+
+        background-color: black;
+        padding: 100px;
+}
+
+.div-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.div-pai div{
+    width: 200px;
+    height: 280px;
+    background-color: black;
+    margin-right: 15px;
+    border-radius: 20px ;
+}
+
+.div-pai .div-01{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/agora02.jpg);
+}
+
+.div-pai .div-02{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/agora01.jpg);
+}
+
+.div-pai .div-03{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/agora03.jpg);  
+}
+
+.div-mãe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.div-mãe div{
+    width: 200px;
+    height: 280px;
+    background-color: black;
+    margin-right: 15px;
+    border-radius: 20px ;
+}
+
+.div-mãe .div-04{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/agora05.jpg);
+}
+
+.div-mãe .div-05{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/agora06.jpg);
+}
+
+.div-mãe .div-06{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img02/imgag.jpg);
+}   
