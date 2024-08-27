@@ -186,6 +186,17 @@ footer i {
     background-image: url(img/agora02.jpg);
 }
 
+
+.div-pai .div-01:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
+}
+
+
+
+
 .div-pai .div-02{
     background-size: cover;
     background-position: center;
@@ -193,11 +204,27 @@ footer i {
     background-image: url(img/agora01.jpg);
 }
 
+.div-pai .div-02:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
+}
+
+
+
 .div-pai .div-03{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(img/agora03.jpg);  
+}
+
+.div-pai .div-03:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
 }
 
 .div-mãe {
@@ -222,6 +249,18 @@ footer i {
     background-image: url(img/agora05.jpg);
 }
 
+
+.div-mãe .div-04:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
+
+}
+
+
+
+
 .div-mãe .div-05{
     background-size: cover;
     background-position: center;
@@ -229,9 +268,83 @@ footer i {
     background-image: url(img/agora06.jpg);
 }
 
+.div-mãe .div-05:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
+
+}
+
+
 .div-mãe .div-06{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(img02/imgag.jpg);
-}   
+}
+
+
+.div-mãe .div-06:hover{
+    width: 210px;
+    transition: 0.6s;
+    border: 2px solid red;
+    box-shadow: 0 0 16px red;
+
+}
+
+.section-06{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #b8161b;
+}
+
+.div-texto{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+.div-texto h2{
+    font-size: 30px;
+}
+
+.div-texto p{
+    font-size: 20px
+    
+}
+
+footer {
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer ul {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    justify-items: center; 
+  }
+footer ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+footer ul li a{
+   text-decoration: none; 
+   color: white;
+}
+
+footer i {
+    color: #b40b0e;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
